@@ -1,0 +1,9 @@
+﻿Versão 0.01, 15/10/2012 -- lançamento inicial
+
+Versão 0.02,  18/01/2013
+- Correção de bugs
+- Formulário de cadastro de letras: Sugestão de quantidade máxima de caracteres alterada de 900 para 450 caracteres, para poder aumentar o tamanho da fonte.
+- Alteração do menu "Configurações" para menu "Editar"
+- Formulário de configurações do menu editar: Foi adicionado o campo "Tamanho da fonte no monitor que exibirá a letra no palco". Este campo servirá para o próprio usuário configurar o tamanho padrão da fonte que ele deseja que seja exibida no monitor.
+- Formulário de exibição da letra no palco: Reformulação do Forumulário para melhor visualização. Foi adicionado barra de rolagens nos objetos que exibem a letra para o caso deste formulário for controlado por uma pessoa específica, assim pode-se ter uma letra com fonte que exceda as dimensões da tela, desde que alguém controle a barra de rolagem. Foi adicionado também neste formulário o objeto "Tamanho da fonte" para o caso do usuário necessitar fazer um ajuste rápido no tamanho da fonte, no momento em que a música estiver em execução. Este objeto fica ao lado direito do campo ID, no rodapé do formulário.
+

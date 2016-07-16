@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_end_iter"
+			],
+			[
+				"start",
+				"get_start_iter"
+			],
+			[
+				"set",
+				"set_text"
+			],
+			[
+				"lbl",
+				"lbl_fonte"
+			],
+			[
+				"ge",
+				"get_object"
+			],
+			[
+				"sw",
+				"sw_texto2"
+			],
+			[
+				"tex",
+				"text_tag"
+			],
+			[
+				"te",
+				"text_tag"
+			],
+			[
+				"tt",
+				"tt_font1"
+			],
+			[
+				"for",
+				"formatar_texto"
+			],
+			[
+				"ttt",
+				"ttt_texto1"
+			],
+			[
+				"tb_",
+				"tb_texto1"
+			],
+			[
+				"tb",
+				"tb_texto1"
+			],
+			[
+				"on",
+				"on_btn_sair_clicked"
+			],
+			[
+				"cl",
+				"clicked"
+			],
+			[
+				"btn",
+				"btn_sair"
+			],
+			[
+				"con",
+				"connect"
+			],
+			[
+				"mai",
+				"main_quit"
+			],
+			[
+				"frm",
+				"frm_letra"
+			],
+			[
+				"tbl",
+				"tbl_btn"
+			],
+			[
+				"l",
+				"btn_localizar"
+			],
+			[
+				"v",
+				"vbox_entry"
+			],
+			[
+				"h",
+				"hbox_rodape"
+			],
+			[
+				"pa",
+				"pack_start"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Letreiro.pyw",
+			"settings":
+			{
+				"buffer_size": 3642,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 348.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"",
+				"File: Close All"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/Pendrive/Projetos/PyGTK/Letreiro/Letreiro.pyw",
+		"/media/Pendrive/Projetos/Letreiro/Letreiro.sublime-project",
+		"/media/Pendrive/Projetos/Letreiro/Letreiro.pyw",
+		"/home/juliano/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/juliano/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+		"/home/juliano/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/media/Pendrive/Projetos/Letreiro/Letreiro.py",
+		"/media/Pendrive/Projetos/Letreiro/setup.py",
+		"/F/Projetos/Letreiro/ui/palco/letra.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/core/config.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/autores/autores.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/palco/letra.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/palco/id.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/letras/letras.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/core/dialogs.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/sobre/sobre.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/palco/letra_nova.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/core/config.xml",
+		"/media/Pendrive/Projetos/Letreiro-0.01/core/config_db.xml",
+		"/media/Pendrive/Projetos/Letreiro-0.01/ui/palco/unidades_geradoras_serialize.py",
+		"/media/Pendrive/Projetos/serializar/serializar.py",
+		"/home/juliano/Documentos/Python/exemplos/label_pango.py",
+		"/home/juliano/Documentos/Python/exemplos/label_dinamic.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/Letreiro_test.py",
+		"/media/Pendrive/Projetos/Letreiro-0.01/Letreiro.pyw",
+		"/media/Pendrive/Projetos/Letreiro-0.01/Letreiro.sublime-project",
+		"/home/juliano/Documentos/Pendrive/Projetos/Financeiro-0.01/financeiro.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"import",
+			"#!/",
+			"tb",
+			"config",
+			"reload",
+			"config",
+			"font_desc",
+			"db.fonte",
+			"db.font",
+			"config.string_db.node_data",
+			"node_data",
+			"letra",
+			"config",
+			"config_db",
+			"frm_config_db",
+			"config_db",
+			"menu_config",
+			"db.text_tag",
+			"900",
+			"db.text_tag",
+			"texttag_bold",
+			"janela"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font_size",
+			"config.string_db.db",
+			"config",
+			"frm_config",
+			"config",
+			"menu_edit",
+			"self.frm_letra"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Letreiro.pyw",
+					"settings":
+					{
+						"buffer_size": 3642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 141.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}
