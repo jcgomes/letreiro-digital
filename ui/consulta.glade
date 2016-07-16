@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="frm_consulta">
+    <property name="width_request">650</property>
+    <property name="height_request">500</property>
+    <property name="title" translatable="yes">Consulta</property>
+    <property name="modal">True</property>
+    <property name="window_position">center-always</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="icon">../icons/icon.png</property>
+    <signal name="key_press_event" handler="on_frm_consulta_key_press_event"/>
+    <child>
+      <object class="GtkVBox" id="vbox">
+        <property name="visible">True</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkViewport" id="vp_treeview">
+            <property name="visible">True</property>
+            <property name="border_width">5</property>
+            <property name="resize_mode">queue</property>
+            <child>
+              <object class="GtkScrolledWindow" id="sw_treeview">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="hscrollbar_policy">automatic</property>
+                <property name="vscrollbar_policy">automatic</property>
+                <child>
+                  <object class="GtkTreeView" id="tv_consulta">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="reorderable">True</property>
+                    <property name="rules_hint">True</property>
+                    <property name="enable_grid_lines">vertical</property>
+                    <signal name="row_activated" handler="on_tv_consulta_row_activated"/>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkViewport" id="vp_consulta">
+            <property name="visible">True</property>
+            <property name="border_width">5</property>
+            <property name="resize_mode">queue</property>
+            <child>
+              <object class="GtkTable" id="tabela_rodape">
+                <property name="visible">True</property>
+                <property name="extension_events">cursor</property>
+                <property name="border_width">10</property>
+                <property name="n_columns">3</property>
+                <property name="column_spacing">5</property>
+                <child>
+                  <object class="GtkTable" id="tabela_btn">
+                    <property name="visible">True</property>
+                    <property name="n_columns">4</property>
+                    <property name="column_spacing">5</property>
+                    <child>
+                      <object class="GtkToolButton" id="btn_localizar">
+                        <property name="visible">True</property>
+                        <property name="tooltip_text" translatable="yes">Visualizar registro</property>
+                        <property name="label" translatable="yes">_Localizar</property>
+                        <property name="use_underline">True</property>
+                        <property name="stock_id">gtk-find</property>
+                        <signal name="clicked" handler="on_btn_localizar_clicked"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkToolButton" id="btn_sair">
+                        <property name="visible">True</property>
+                        <property name="tooltip_text" translatable="yes">Sair do formul&#xE1;rio</property>
+                        <property name="label" translatable="yes">_Sair</property>
+                        <property name="use_underline">True</property>
+                        <property name="stock_id">gtk-quit</property>
+                        <signal name="clicked" handler="on_btn_sair_clicked"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">3</property>
+                        <property name="right_attach">4</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkToolButton" id="btn_adicionar">
+                        <property name="visible">True</property>
+                        <property name="tooltip_text" translatable="yes">Adicionar registro</property>
+                        <property name="label" translatable="yes">_Adicionar</property>
+                        <property name="use_underline">True</property>
+                        <property name="stock_id">gtk-add</property>
+                        <signal name="clicked" handler="on_btn_adicionar_clicked"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">2</property>
+                        <property name="right_attach">3</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkToolButton" id="btn_atualizar">
+                        <property name="visible">True</property>
+                        <property name="tooltip_text" translatable="yes">Atualizar registros</property>
+                        <property name="label" translatable="yes">_Atualizar</property>
+                        <property name="use_underline">True</property>
+                        <property name="stock_id">gtk-refresh</property>
+                        <signal name="clicked" handler="on_btn_atualizar_clicked"/>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="right_attach">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="left_attach">2</property>
+                    <property name="right_attach">3</property>
+                    <property name="x_options">GTK_FILL</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkTable" id="tabela_parametro">
+                    <property name="visible">True</property>
+                    <property name="n_rows">2</property>
+                    <property name="column_spacing">5</property>
+                    <child>
+                      <object class="GtkLabel" id="lbl_parametro">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">Par&#xE2;metro a localizar</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkEntry" id="e_parametro">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="has_focus">True</property>
+                        <property name="is_focus">True</property>
+                        <property name="tooltip_text" translatable="yes">digite aqui o par&#xE2;metro a localizar</property>
+                        <property name="invisible_char">&#x25CF;</property>
+                        <signal name="changed" handler="on_e_parametro_changed"/>
+                        <signal name="key_press_event" handler="on_e_parametro_key_press_event"/>
+                      </object>
+                      <packing>
+                        <property name="top_attach">1</property>
+                        <property name="bottom_attach">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="right_attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkTable" id="tabela_campo">
+                    <property name="visible">True</property>
+                    <property name="n_rows">2</property>
+                    <property name="column_spacing">5</property>
+                    <child>
+                      <object class="GtkLabel" id="lbl_campo">
+                        <property name="visible">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">Campo</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkComboBox" id="cb_parametro">
+                        <property name="visible">True</property>
+                        <property name="tooltip_text" translatable="yes">Escolha o campo a consultar</property>
+                        <property name="active">1</property>
+                        <child>
+                          <object class="GtkCellRendererText" id="cr_texto"/>
+                          <attributes>
+                            <attribute name="text">1</attribute>
+                          </attributes>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="top_attach">1</property>
+                        <property name="bottom_attach">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="x_options">GTK_FILL</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="padding">5</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
